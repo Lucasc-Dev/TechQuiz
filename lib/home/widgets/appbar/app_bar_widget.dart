@@ -1,13 +1,13 @@
-import 'package:TechQuiz/home/widgets/score_card/score_card_widget.dart';
+import 'package:techquiz/home/widgets/score_card/score_card_widget.dart';
 import 'package:flutter/cupertino.dart';
-import 'package:TechQuiz/core/app_gradients.dart';
-import 'package:TechQuiz/core/app_text_styles.dart';
+import 'package:techquiz/core/app_gradients.dart';
+import 'package:techquiz/core/app_text_styles.dart';
 
 class AppBarWidget extends PreferredSize {
   AppBarWidget() : super(
-    preferredSize: Size.fromHeight(250),
+    preferredSize: Size.fromHeight(200),
     child: Container(
-      height: 250,
+      height: 200,
       decoration: BoxDecoration(
         gradient: AppGradients.linear,
       ),
@@ -46,7 +46,7 @@ class AppBarWidget extends PreferredSize {
             ),
           ),
           Align(
-            alignment: Alignment(0.0, 1.0),
+            alignment: Alignment(0.0, 3),
             child: ScoreCardWidget()
           ),
         ],

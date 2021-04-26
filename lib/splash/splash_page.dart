@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:TechQuiz/core/app_gradients.dart';
-import 'package:TechQuiz/core/core.dart';
-import 'package:TechQuiz/core/app_images.dart';
+import 'package:techquiz/core/app_gradients.dart';
+import 'package:techquiz/core/core.dart';
+import 'package:techquiz/core/app_images.dart';
 
 class SplashPage extends StatelessWidget {
   @override
